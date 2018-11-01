@@ -1,0 +1,29 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    width: 80vw;
+    background-color: rgb(211, 218, 240);
+}
+
+.card, .show-breed {
+    width: 150px;
+    border-radius: 4px;
+    border-left: 3px solid rgb(247, 236, 170);
+    background-color: white;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+}
+
+.show-breed {
+    background-color: rgb(233, 231, 231);
+    width: 200px;
+    margin: 10px auto;
+} 
